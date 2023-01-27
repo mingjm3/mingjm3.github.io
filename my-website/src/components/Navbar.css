@@ -5,6 +5,7 @@ nav {
     width: 100%;
     padding: 0.5rem 1rem;
     position: fixed;
+    background-color:#282c34;
 }
 
 nav a {
