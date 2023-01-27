@@ -11,3 +11,73 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  text-align: center;
+  color: #fff;
+  background-color: #282c34;
+}
+
+.App .App-header {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-height: 5vh;
+}
+
+.App .App-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 0.9em;
+  padding: 0.5em;
+  display: block;
+  border-radius: 3px;
+  transition: all 0.5s ease-in-out;
+  margin-right: 10px;
+}
+
+a:hover {
+  cursor: pointer;
+  background-color:grey;
+  color: aqua;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0.5rem 1rem;
+}
+
+nav > ol {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+nav > ol > li {
+  display: list-item;
+  margin: 0px 50px;
+}
