@@ -1,6 +1,6 @@
 import './App.css';
 import Nav from './components/Navbar.js'
-import About from './components/About.js';
+import Intro from './components/Intro';
 
 function App() {
   return (
@@ -9,8 +9,11 @@ function App() {
         <Nav />
       </header>
       <div className="App-body">
+        <section id='intro'>
+          <Intro />
+        </section>
         <section id='about'>
-          <About />
+          <h2>About</h2>
         </section>
         <section id='experience'>
           <h2>Experience</h2>
