@@ -4,7 +4,7 @@ nav {
     justify-content: center;
     width: 100%;
     padding: 0.5rem 1rem;
-    position: fixed;
+    background-color: rgb(223, 145, 145, 0.3);
 }
 
 nav a {

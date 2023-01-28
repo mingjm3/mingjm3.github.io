@@ -47,3 +47,8 @@ code {
   -webkit-overflow-scrolling: touch;
   color: #fff;
 }
+
+.App .App-body #experience {
+  background-color:aliceblue;
+  color: #282c34;
+}
