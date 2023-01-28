@@ -1,6 +1,7 @@
 import './App.css';
 import Nav from './components/Navbar.js'
 import Intro from './components/Intro';
+import Profile from './components/Profile';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
           <Intro />
         </section>
         <section id='about'>
-          <h2>About</h2>
+          <Profile />
         </section>
         <section id='experience'>
           <h2>Experience</h2>
