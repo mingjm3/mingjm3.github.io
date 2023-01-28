@@ -10,7 +10,7 @@ export default function Socialbar() {
                 <img src="../images/linkedin.png" alt="linkedin" />
             </a>
             <a href="mailto:imingjun.ma@outlook.com" target="_blank" rel="noopener noreferrer">
-                <img src="../images/email.png" alt="gmail" />
+                <img src="../images/email.png" alt="email" />
             </a>
         </div>
     );

@@ -5,9 +5,7 @@ import Intro from './components/Intro';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Nav />
-      </header>
+      <Nav />
       <div className="App-body">
         <section id='intro'>
           <Intro />
