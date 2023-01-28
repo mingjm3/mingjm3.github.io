@@ -1,0 +1,26 @@
+.intro-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.intro-page h1 {
+    font-size: 2em;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+.intro-page h2 {
+    font-size: 8em;
+    font-weight: 800;
+}
+
+.intro-page h3 {
+    font-size: 2em;
+    color:darkgray;
+    margin-top: 1em;
+    margin-bottom: 5em;
+}
