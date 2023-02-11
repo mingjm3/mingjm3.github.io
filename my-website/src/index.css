@@ -14,8 +14,8 @@ code {
 
 .App {
   text-align: center;
-  color: #fff;
-  background-color: #282c34;
+  color: #EEE9DA;
+  background-color: #93BFCF;
 }
 
 .App .App-header {
@@ -45,10 +45,12 @@ code {
   overflow-x: hidden;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
-  color: #fff;
 }
 
-.App .App-body #experience {
-  background-color:aliceblue;
-  color: #282c34;
+.App .App-body #about {
+  background-color:#6096B4;
+}
+
+.App .App-body #projects {
+  background-color:#6096B4;
 }

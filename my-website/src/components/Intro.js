@@ -2,6 +2,7 @@ import Socialbar from "./Socialbar";
 import './Intro.css';
 
 export default function Intro() {
+    
     return (
         <div className="intro-page">
             <h1>Hi, my name is </h1>
