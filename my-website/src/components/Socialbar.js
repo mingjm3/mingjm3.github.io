@@ -1,4 +1,4 @@
-import './Socialbar.css';
+import './SocialBar.css';
 
 export default function Socialbar() {
     return (

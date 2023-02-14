@@ -1,35 +1,28 @@
-import "./Profile.css";
-import Techstack from "./Techstack.js";
+import './Profile.css';
 
 export default function Profile() {
     return (
-        <div className="profile">
-            <h1>About me</h1>
-            <div className="card">
-                <div className="card-text">
-                    <p>
-                        I am a full-stack web developer with a background in
-                        computer science and a passion for building things.
-                        I am currently working as a Full Stack Developer at
-                        I am a full-stack web developer with a background in
-                        computer science and a passion for building things.
-                        I am currently working as a Full Stack Developer at
-                        I am a full-stack web developer with a background in
-                        computer science and a passion for building things.
-                        I am currently working as a Full Stack Developer at
-                        I am a full-stack web developer with a background in
-                        computer science and a passion for building things.
-                        I am currently working as a Full Stack Developer at
-                        I am a full-stack web developer with a background in
-                        computer science and a passion for building things.
-                        I am currently working as a Full Stack Developer at
-                    </p>
-                </div>
-                <div className="card-photo">
-                    <img src="../images/my-photo.jpg" alt="profile" />
-                </div>
+        <div className='profile'>
+            <div className='profile-text'>
+                <h1>About Me</h1>
+                <p>
+                    I am a graduate student in Computer Science at the University of Washington, specializing in cloud computing and distributed computing.
+                </p>
+                <p>
+                    Prior to pursuing my Master's degree, I worked as a full-stack software engineer for a year and I'm an active open-source contributor on GitHub.
+                </p>
+                <p>
+                    In addition to my academic and professional experience, I have a passion for exploring new places and experiencing different cultures.
+                    I enjoy meeting new people, trying new foods, and seeing the world from a different point of view. I am always eager to learn and embrace new challenges.
+                </p>
             </div>
-            <Techstack />
+            <div className='profile-photo'>
+                <img src="../images/my-photo.jpg" alt='portrait' />
+            </div>
+            <div className='profile-skills'>
+                
+            </div>
         </div>
     );
 }
+

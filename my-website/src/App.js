@@ -1,15 +1,15 @@
 import './App.css';
-import Nav from './components/Navbar.js'
-import Intro from './components/Intro';
+import NavBar from './components/NavBar.js'
+import Home from './components/Home';
 import Profile from './components/Profile';
 
 function App() {
   return (
     <div className="App">
-      <Nav />
+      <NavBar />
       <div className="App-body">
-        <section id='intro'>
-          <Intro />
+        <section id='home'>
+          <Home />
         </section>
         <section id='about'>
           <Profile />
