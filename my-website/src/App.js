@@ -2,6 +2,7 @@ import './App.css';
 import NavBar from './components/NavBar.js'
 import Home from './components/Home';
 import Profile from './components/Profile';
+import TimeLine from './components/TimeLine';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
           <Profile />
         </section>
         <section id='experience'>
-          <h2>Experience</h2>
+          <TimeLine />
         </section>
         <section id='projects'>
           <h2>Projects</h2>

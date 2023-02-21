@@ -1,0 +1,15 @@
+.timeline {
+    margin: 5% 10%;
+}
+
+.timeline h1 {
+    font-size: 3rem;
+    margin-bottom: 5%;
+    align-items: center;
+}
+
+.timeline-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
