@@ -1,0 +1,15 @@
+.dropdown-content {
+    display: none;
+    position:absolute;
+    font-size: 0.8rem;
+}
+
+.dropdown-content a {
+    margin: 0;
+}
+
+li:hover .dropdown-content {
+    display: block;
+    background-color: #6096B4;
+}
+

@@ -20,9 +20,6 @@ function App() {
         <section id='projects'>
           <h2>Projects</h2>
         </section>
-        <section id='contact'>
-          <h2>Contact</h2>
-        </section>
       </div>
     </div>
   );
