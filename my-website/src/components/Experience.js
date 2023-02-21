@@ -8,7 +8,9 @@ export default function Experience(props) {
                 <p className="exp-date">{props.date}</p>
             </div>
             <div className="exp-icon">
-                <img src={props.icon} alt={props.name}/>
+                <a href={props.link}>
+                    <img src={props.icon} alt={props.name}/>
+                </a>
             </div>
             <div className="exp-content">
                 <a href={props.link}>{props.name}</a>
