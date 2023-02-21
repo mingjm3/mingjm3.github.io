@@ -1,0 +1,31 @@
+#skills-title {
+    font-size: 2rem;
+    text-align: left;
+    margin: 0 10%;
+}
+
+.skills-bar {
+    display: flex;
+    margin: 0 10%;
+    align-items: center;
+}
+
+.skills-bar ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 3rem;
+}
+
+.skills-bar li img {
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+    margin: 5% 5% 5% 0;
+}
+
+.skills-bar .skill-name {
+    font-size: 1rem;
+    font-style: italic;
+}

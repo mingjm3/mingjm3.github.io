@@ -1,8 +1,10 @@
 import './Profile.css';
+import SkillsBar from './SkillsBar';
 
 export default function Profile() {
     return (
-        <div className='profile'>
+        <div>
+            <div className='profile'>
             <div className='profile-text'>
                 <h1>About Me</h1>
                 <p>
@@ -19,8 +21,9 @@ export default function Profile() {
             <div className='profile-photo'>
                 <img src="../images/my-photo.jpg" alt='portrait' />
             </div>
-            <div className='profile-skills'>
-                
+            </div>
+            <div>
+                <SkillsBar />
             </div>
         </div>
     );
