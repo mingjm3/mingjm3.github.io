@@ -2,7 +2,7 @@ import './NavBar.css';
 import DropDownMenu from './DropDownMenu';
 
 const contactData = new Map([["Email", "mailto:imingjun.ma@outlook.com"], ["LinkedIn", "https://www.linkedin.com/in/mingjun-m-0bb5401a1/"]]);
-const resumeData = new Map([["Preview", "https://drive.google.com/file/d/1_h2tdWO3wqdXeFpdSVea7iCIHpaCmuF5/view?usp=share_link"],["Download", "https://drive.google.com/u/0/uc?id=1_h2tdWO3wqdXeFpdSVea7iCIHpaCmuF5&export=download"]]);
+const resumeData = new Map([["Preview", "https://drive.google.com/file/d/1rNLBubq6u5xq5x-NRkK-ZCFUZy3pSt_K/view?usp=sharing"],["Download", "https://drive.google.com/u/0/uc?id=1rNLBubq6u5xq5x-NRkK-ZCFUZy3pSt_K&export=download"]]);
 
 export default function NavBar() {
     return (
