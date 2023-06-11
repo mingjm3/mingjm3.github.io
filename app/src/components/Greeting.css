@@ -1,0 +1,12 @@
+.GreetingBlock {
+    color: var();
+    text-align: left;
+    margin-left: 20%;
+    padding-bottom: 10%;
+    font-weight: 500;
+}
+
+#hi {
+    color: var(--highlight-color);
+    
+}

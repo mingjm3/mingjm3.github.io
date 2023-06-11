@@ -2,7 +2,7 @@
     background-color:var(--background-color);
     color: var(--text-color);
     padding-top: 10vh;
-    padding-bottom: 20vh;   
+    padding-bottom: 5vh;   
 }
 
 .profile .avatar img {

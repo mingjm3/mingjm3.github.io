@@ -3,7 +3,7 @@ import { FaSun } from 'react-icons/fa'
 import './App.css';
 
 import Profile from './components/Profile';
-
+import Greeting from './components/Greeting';
 
 function App() {
   const [theme, setTheme] = useState('dark');
@@ -19,12 +19,7 @@ function App() {
             <FaSun />
           </button>
           <Profile />
-          <div className='Introduction'>
-            <p>Hey, </p>
-            <p>My name is Mingjun 👋</p>
-            <p>I'm a Graduate Student in Computer Science, Software Engineer, Geek and Explorer </p>
-            <p>Distributed System · Cloud Computing · System</p>
-          </div>
+          <Greeting />
         </div>
       </div>
   );
