@@ -7,16 +7,22 @@
 
 .profile .avatar img {
     border-radius: 50%;
-    margin-bottom: 3%;
-    border: 2px solid var(--text-color);
-    height: 13%;
-    width: 13%;
+    border: 3px solid var(--secondary-color);
+    height: 12%;
+    width: 12%;
 }
 
 .profile .name {
-    font-size: 5rem;
+    font-size: 3.9rem;
+    font-weight: bolder;
     font-family: cursive;
     margin-top: 0%;
+}
+
+.profile .title {
+    font-weight: bold;
+    font-size: large;
+    color: var(--highlight-color)
 }
 
 .profile .first-name {
@@ -30,7 +36,6 @@
 .profile nav {
     display: flex;
     justify-content: center;
-    margin-bottom: 3%;
 }
 
 .profile nav ul {
@@ -41,7 +46,6 @@
 }
 
 .profile nav li {
-    list-style: circle;
     margin-left: 8%;
     margin-right: 5%;
 }

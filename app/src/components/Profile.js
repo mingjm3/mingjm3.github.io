@@ -13,6 +13,9 @@ function Profile(params) {
                 <span className="first-name"> Mingjun </span>
                 <span className="last-name"> Ma </span>
             </h1>
+            <div className="title">
+                M.S. in Computer Science | Software Engineer
+            </div>
             <nav>
                 <ul>
                     <li>
