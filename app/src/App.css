@@ -29,6 +29,15 @@
   color: white;
 }
 
+.Theme {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border: none;
+  margin-top: 2%;
+  width: 50px;
+  height: 50px;
+  font-size: 2rem;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -37,9 +46,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-button {
-  background-color: var(--background-color);
-  color: var(--text-color);
 }
