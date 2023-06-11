@@ -19,19 +19,19 @@ function Profile(params) {
             <nav>
                 <ul>
                     <li>
-                        <a href="/skills/">skills</a>
+                        <a href="#skills">skills</a>
                     </li>
                     <li>
-                        <a href="/education/">education</a>
+                        <a href="#education">education</a>
                     </li>
                     <li>
-                        <a href="/work/">work</a>
+                        <a href="#work">work</a>
                     </li>
                     <li>
-                        <a href="/project/">project</a>
+                        <a href="#project">project</a>
                     </li>
                     <li>
-                        <a href="/resume/">resume</a>
+                        <a href="#resume">resume</a>
                     </li>
                 </ul>
             </nav>

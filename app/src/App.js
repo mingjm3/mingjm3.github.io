@@ -4,6 +4,7 @@ import './App.css';
 
 import Profile from './components/Profile';
 import Greeting from './components/Greeting';
+import Skills from './components/Skills';
 
 function App() {
   const [theme, setTheme] = useState('dark');
@@ -20,6 +21,7 @@ function App() {
           </button>
           <Profile />
           <Greeting />
+          <Skills />
         </div>
       </div>
   );
