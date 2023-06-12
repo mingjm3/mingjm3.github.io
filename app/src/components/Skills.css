@@ -2,14 +2,6 @@
 	box-sizing: border-box;
 }
 
-.skills_title {
-	margin-top: 2%;
-	margin-bottom: 1%;
-	color: var(--highlight-color);
-	font-weight: bold;
-	font-size: 3rem;
-}
-
 .skills {
 	margin: auto;
 	padding: 30px;
@@ -56,6 +48,7 @@
 
 .skills__list-item {
     font-size: large;
+	font-weight: bold;
 	margin: 5px;
 	padding: 5px 10px;
 	border-radius: 3px;

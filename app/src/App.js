@@ -6,6 +6,7 @@ import Profile from './components/Profile';
 import Greeting from './components/Greeting';
 import Skills from './components/Skills';
 import Education from './components/Education';
+import Work from './components/Work';
 
 function App() {
   const [theme, setTheme] = useState('dark');
@@ -24,6 +25,7 @@ function App() {
           <Greeting />
           <Skills />
           <Education />
+          <Work />
         </div>
       </div>
   );

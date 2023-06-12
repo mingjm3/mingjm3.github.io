@@ -32,7 +32,7 @@ const data = [
 function Skills() {
   return (
     <div>
-        <div className='skills_title'>
+        <div className='part_title'>
             Skills
         </div>
         <div id="skills" className="skills">

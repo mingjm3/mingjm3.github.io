@@ -31,6 +31,14 @@
   font-size: 2rem;
 }
 
+.part_title {
+	margin-top: 2%;
+	margin-bottom: 1%;
+	color: var(--highlight-color);
+	font-weight: bold;
+	font-size: 3rem;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

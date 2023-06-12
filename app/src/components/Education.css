@@ -1,55 +1,58 @@
 .education_title {
-    margin-top: 2%;
-    margin-bottom: 1%;
-    color: var(--highlight-color);
-    font-weight: bold;
-    font-size: 3rem;
-  }
-  
-  .education {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .education__container {
-    width: 20%;
-    height: auto;
-    margin: 1% 1%;
-    padding: 10px;
-    background-color: var(--secondary-color);
-    border-radius: 5px;
-    box-shadow: 
-		0 1rem 3rem var(--background-color),
-		-4px 4px 15px 5px rgba(0,0,0,.1);
-  }
-  
-  .education__container:hover {
-	filter: brightness(130%);
+  margin-top: 2%;
+  margin-bottom: 1%;
+  color: var(--highlight-color);
+  font-weight: bold;
+  font-size: 3rem;
 }
 
-  .education__logo img {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    background-color: #ffffff;
-    object-fit: cover;
-  }
-  
-  .education__details {
-    text-align: center;
-  }
-  
-  .education__details h3 {
-    margin: 2% 0;
-    font-size: 18px;
-    font-weight: bold;
-    color: var(--highlight-color);
-  }
-  
-  .education__details p {
-    margin: 5px 0;
-    font-size: large;
-    color: var(--text-color);
-  }
-  
+.education {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.education__container {
+  width: 20%;
+  height: auto;
+  margin: 1% 1%;
+  padding: 10px;
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  box-shadow: 
+  0 1rem 3rem var(--background-color),
+  -4px 4px 15px 5px rgba(0,0,0,.1);
+}
+
+.education__container:hover {
+filter: brightness(130%);
+}
+
+.education__logo img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  object-fit: cover;
+}
+
+.education__details {
+  text-align: center;
+}
+
+.education__details a{
+  text-decoration: none;
+}
+
+.education__details h3 {
+  margin: 2% 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--highlight-color);
+}
+
+.education__details p {
+  margin: 5px 0;
+  font-size: large;
+  color: var(--text-color);
+}
