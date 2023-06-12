@@ -9,7 +9,8 @@ const data = [
     startDate: "May 2023",
     endDate: "Present",
     description: ["- Achieved dynamic routing algorithms in a commercial router and analyzed network data using C++.", "- Achieved dynamic routing algorithms in a commercial router and analyzed network data using C++."],
-    technologies: ["Python", "REST APIs", "Falcon"]
+    technologies: ["Python", "REST APIs", "Falcon"],
+    url: "https://google.com/"
   },
   {
     logo: "https://media.licdn.com/dms/image/C4E0BAQE5QBG-mhja9g/company-logo_200_200/0/1625041348494?e=1694649600&v=beta&t=el4og5WmrWUqf5SmsGdALZL-ql9dcdjOjZSD7j1luP8",
@@ -56,7 +57,11 @@ function Work() {
                   <p className="date">{`${experience.startDate} - ${experience.endDate}`}</p>
                 </div>
                 <div className="timeline-text">
-                    <p className='company'>{experience.company}</p>
+                    <p className='company'>
+                      <a href={experience.url} target="_blank">
+                        {experience.company}
+                      </a>
+                    </p>
                     <p className="position">{experience.position}</p>
                     <div className="description">
                       {experience.description.map((desc, index) => (

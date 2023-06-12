@@ -9,3 +9,7 @@
 #hi {
     color: var(--highlight-color);
 }
+
+.GreetingBlock p {
+    width: 90%;
+}
