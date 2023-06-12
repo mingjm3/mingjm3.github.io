@@ -15,7 +15,7 @@ const data = [
     {
         title: 'DevOps',
         grid: 'devops',
-        skill: ['Azure', 'Git', 'Docker', 'Kubernetes', 'Jenkins', 'Github Action', 'Nginx', 'Linux']
+        skill: ['Azure', 'Git', 'Docker', 'Kubernetes', 'Jenkins', 'Github Actions', 'Nginx', 'Linux']
     },
     {
         title: 'Programming Language',
