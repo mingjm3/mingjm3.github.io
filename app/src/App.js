@@ -8,6 +8,7 @@ import Skills from './components/Skills';
 import Education from './components/Education';
 import Work from './components/Work';
 import Project from './components/Project'
+import Footer from './components/Footer';
 
 function App() {
   const [theme, setTheme] = useState('dark');
@@ -28,6 +29,7 @@ function App() {
           <Education />
           <Work />
           <Project />
+          <Footer />
         </div>
       </div>
   );
