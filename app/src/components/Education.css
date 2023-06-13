@@ -57,3 +57,27 @@ filter: brightness(130%);
   font-size: large;
   color: var(--text-color);
 }
+
+@media (max-width: 1000px) {
+  .education__logo img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .education__details h3 {
+    font-size: 18px;
+  }
+  
+  .education__details p {
+    margin: 5px 0;
+    font-size: 15px;
+  }
+
+  .education__container {
+    width: 30%;
+    max-width: max-content;
+    height: auto;
+    margin: 2% 2%;
+    padding: 10px;
+  }
+}
