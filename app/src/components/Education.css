@@ -19,6 +19,7 @@
   padding: 10px;
   background-color: var(--secondary-color);
   border-radius: 15px;
+  transition: .5s;
   box-shadow: 
   0 1rem 3rem var(--background-color),
   -4px 4px 15px 5px rgba(0,0,0,.1);
