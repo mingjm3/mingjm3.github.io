@@ -1,15 +1,15 @@
 .App-light {
   --background-color: #FFFFFF;
-  --secondary-color: #E8E8E8;
-  --text-color: #000000;
-  --highlight-color: #EA3B35;
+  --secondary-color: #E8EAEE;
+  --text-color: #1F2329;
+  --highlight-color: #00739A;
 }
 
 .App-dark {
-  --background-color: #303440;
-  --secondary-color: #23262F;
-  --text-color: #F0F0F0;
-  --highlight-color: #FE99BB;
+  --background-color: #18191E;
+  --secondary-color: #1F2329;
+  --text-color: #EAEBED;
+  --highlight-color: #0094C3;
 }
 
 .App {
