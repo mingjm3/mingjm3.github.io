@@ -29,7 +29,7 @@ const data = [
     startDate: "Aug 2021",
     endDate: "Sep 2021",
     description: ["- Achieved dynamic routing algorithms implementation in a commercial router, resulting in an improvement in network efficiency and reduced packet loss by C++", "- Designed and developed test automation frameworks to assess router throughput and routing accuracy. Utilized Python to automate test scenarios, resulting in a 30% reduction in testing time."],
-    technologies: ["Python", "C++"],
+    technologies: ["Python", "C++", "Computer Network", "Linux"],
     url: "https://www.tp-link.com/us/"
   },
   {
@@ -37,7 +37,7 @@ const data = [
     company: "West China Hospital",
     position: "Research Assistant in Ophthalmology Department",
     startDate: "Jun 2020",
-    endDate: "2Jul 2021",
+    endDate: "Jul 2021",
     description: ["- Participated in intensive daily clinical practice in the hospital; prescribing medications, eyeglasses and contact lenses accumulating 600 cases; carried out practical diagnostics accumulating 800 times, such as myopia and glaucoma, etc.", "- Led research in human stereoscopic vision and found binocular disparity, degree of myopia, and strabismus are the main factors affecting stereopsis.", "- Worked in a visual electrophysiology lab, recorded the effects of images on visual electrophysiology and psychological vision."],
     technologies: ["Research", "Vision Science"],
     url:"https://www.wchscu.cn/Home.html"
