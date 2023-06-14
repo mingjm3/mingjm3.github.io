@@ -19,7 +19,7 @@ const data = [
     stars: 50,
     link: 'https://github.com/',
     icon: FaGithub,
-    description: 'uduihwbdkwnui',
+    description: 'uduihwbdkwnuiuduihwbdkwnuiuduihwbdkwnuiuduihwbdkwnuiuduihwbdkwnuiuduihwbdkwnuiuduihwbdkwnuiuduihwbdkwnuiuduihwbdkwnuiuduihwbdkwnuiuduihwbdkwnuiuduihwbdkwnuiuduihwbdkwnuiuduihwbdkwnui',
     skills: [
       'Kafka',
       'Hadoop',
@@ -34,6 +34,14 @@ const data = [
     icon: FaGithub,
     description: 'uduihwbdkwnui',
     skills: [
+      'Kafka',
+      'Hadoop',
+      'Spark',
+      'Redis',
+      'Kafka',
+      'Hadoop',
+      'Spark',
+      'Redis',
       'Kafka',
       'Hadoop',
       'Spark',
