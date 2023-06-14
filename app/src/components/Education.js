@@ -5,7 +5,7 @@ const data = [
         university: "University of Washington",
         majors: "M.S. Computer Science",
         from: "2022/09",
-        to: "Now",
+        to: "Present",
         logo: "https://media.licdn.com/dms/image/C4D0BAQEMmhF9TqUCgA/company-logo_200_200/0/1554743867768?e=1694649600&v=beta&t=w92UsToVDjCH_DPXUe4mRHQxo1ULyF5ZeQlAO2H9ywQ",
         link: "http://www.washington.edu/?_gl=1*16aefbj*_ga*MTMzODU4MzY4NC4xNjY0MTcwNTI4*_ga_3T65WK0BM8*MTY4NjUyMjQzNi4zMi4xLjE2ODY1MjI1NzEuMC4wLjA.*_ga_JLHM9WH4JV*MTY4NjUyMjQzNi4zMi4xLjE2ODY1MjI1NzEuMC4wLjA."
     },

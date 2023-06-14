@@ -40,6 +40,10 @@
     margin: 5%;
 }
 
+.project_title {
+    color: var(--highlight-color);
+}
+
 .project_link:hover {
     color: var(--highlight-color);
     transition: color 0.3s ease;
