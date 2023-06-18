@@ -2,12 +2,13 @@ import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { AiOutlineMail } from "react-icons/ai";
 import { SiLeetcode, SiHandshake } from "react-icons/si";
 import "./Profile.css";
+import myImage from '../images/my-image.jpg';
 
 function Profile(params) {
     return (
         <div className="profile">
             <div className="avatar"> 
-                <img alt="myphoto" src="https://media.licdn.com/dms/image/D4E35AQGzFtHb2A7Ivw/profile-framedphoto-shrink_400_400/0/1684478446184?e=1687114800&v=beta&t=dvipzClM1b31B0kzZUfrLT79gxgunrYvzdjV4AsbVwg"></img>
+                <img alt="myphoto" src={myImage}></img>
             </div>
             <h1 className="name">
                 <span className="first-name"> Mingjun </span>
