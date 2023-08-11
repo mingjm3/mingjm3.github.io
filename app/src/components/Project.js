@@ -5,14 +5,15 @@ const data = [
   {
     title: '[Stanford CIFE x AutoDesk] Data Stream Platform',
     link: 'https://cife.stanford.edu/',
-    description: 'Develop and maintain the system platform. The system utilizes Apache Flink to process the input of architectural video information. By combining GPU nodes with AI technologies, we analyze the construction process to identify areas that can be automated by robots. The project is still ongoing, and we are actively working on it.',
+    description: 'Engaged in the development of a data streaming analytics platform where users can input video streams from construction processes. Utilized Computer Vision techniques to identify human actions during construction that could be replaced by robotics, thereby pinpointing opportunities for automation. Built a distributed streaming processing system using Apache Flink, and utilized Hadoop HDFS for storing data. Enabled users to create data analysis workflows on the platform and run uploaded code.',
     skills: [
       'Apache Flink',
+      'Hadoop HDFS',
       'Computer Vision'
     ]
   },
   {
-    title: '[Open Source] An Image Retrieval System ',
+    title: '[Open Source] An Image Retrieval System',
     stars: 62,
     link: 'https://github.com/mingjm3/image_retrieval_system',
     icon: FaGithub,
@@ -25,9 +26,10 @@ const data = [
     ]
   },
   {
-    title: '[Open Source] Real-Time Flight Tracking System',
+    title: '[Web Project] Online Learning and Teaming Website',
     icon: FaGithub,
-    description: 'Implemented a real-time application for matching aircraft with the nearest airport by Java. The application utilizes Apache Storm as the data stream processing middleware, with spouts and bolts for multi-threaded data processing. Kafka is used as the message queue system for seamless data ingestion.',
+    link: 'https://sbuddy-client.onrender.com/',
+    description: 'Developed an online teaming website using the MERN stack (MongoDB, Express, React, Node.js), enabling users to share team formation information and join existing teams based on learning interests. Utilized Azure Services to host the website frontend, used Azure Container Apps for deploying backend services, and Azure Cosmos DB for managing the database.',
     skills: [
       'Java',
       'Storm',

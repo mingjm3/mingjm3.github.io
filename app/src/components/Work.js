@@ -7,8 +7,8 @@ const data = [
     company: "FindingFive",
     position: "Software Engineer Intern",
     startDate: "May 2023",
-    endDate: "Present",
-    description: ["- Develop backend REST APIs development using Python and Falcon framework."],
+    endDate: "Aug 2023",
+    description: ["- Implemented RESTful API for the Bonus system using Python Falcon. Researchers can reward participants with money or credits based on their engagement levels. Used JWT for user identity validation within API requests, enhancing API security.", "- Engaged in the development of the platform's billing functionalities. Integrated PayPal SDK to create APIs for user payments through PayPal, resulting in a 30% revenue boost for the platform."],
     technologies: ["Python", "REST APIs", "Falcon"],
     url: "https://www.findingfive.com/"
   },
@@ -18,8 +18,8 @@ const data = [
     position: "Software Engineer",
     startDate: "Nov 2021",
     endDate: "Aug 2022",
-    description: ["- Deployed a U.S. oil company business on Azure using Docker, Kubernetes and MongoDB, resulting in a 50% reduction in infrastructure costs and a 30% increase in system scalability.", "- Achieved and tested order REST APIs, enabling seamless order tracking, updates, and creation using SpringBoot and Jmeter, resulting in a 20% improvement in order processing efficiency and a 15% decrease in error rates.", "- Designed and implemented a robust CI/CD pipeline using Github Actions, reducing deployment time by 40% and ensuring continuous integration and delivery of software updates with zero downtime."],
-    technologies: ["Java", "SpringBoot", "Azure", "REST APIs", "CI/CD", "Docker", "Kubernetes", "MongoDB", "GitHub Actions", "Jenkins"],
+    description: ["- Deployed online ordering services for a US petroleum company. Utilized Azure Kubernetes Services to manage containers within a microservices system, enhancing system scalability.", "- Developed RESTful API for order tracking using Java Spring Boot, return  item location and status based on order ID. Used Redis caching for query data to reduce API response time, as validated by JMeter testing, showcasing a 50% reduction in response time.", "- Used  Jenkins to establish a CI/CD pipeline. Utilized SonarCloud within the pipeline for code reviews, increasing code quality and reducing code refactoring tasks by 50%."],
+    technologies: ["Java", "SpringBoot", "Azure", "Redis", "REST APIs", "CI/CD", "Docker", "Kubernetes", "MongoDB", "Jenkins", "JMeter"],
     url: "https://www.thoughtworks.com/en-us"
   },
   {
@@ -28,8 +28,8 @@ const data = [
     position: "Software Engineer Intern",
     startDate: "Aug 2021",
     endDate: "Sep 2021",
-    description: ["- Achieved dynamic routing algorithms implementation in a commercial router, resulting in an improvement in network efficiency and reduced packet loss by C++", "- Designed and developed test automation frameworks to assess router throughput and routing accuracy. Utilized Python to automate test scenarios, resulting in a 30% reduction in testing time."],
-    technologies: ["Python", "C++", "Computer Network", "Linux"],
+    description: ["- Implemented routing algorithms for commercial routers. Achieved the Dijkstra algorithm using C++, effectively enhancing point-to-point routing efficiency by identifying the shortest route paths."],
+    technologies: ["C++", "Computer Network", "Linux"],
     url: "https://www.tp-link.com/us/"
   },
   {

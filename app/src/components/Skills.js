@@ -5,7 +5,7 @@ const data = [
     {
         title: 'Core',
         grid: 'core',
-        skill: ['Kafka', 'Hadoop', 'Spark', 'Redis', 'Hazelcast', 'Storm', 'ZooKeeper', 'Azure', 'Distributed System', 'Parallel Computing', 'Grid Computing', 'Cloud Computing']
+        skill: ['Kafka', 'Hadoop', 'Spark', 'Redis', 'Hazelcast', 'Storm', 'ZooKeeper', 'gRPC', 'GraphQL', 'Distributed System', 'Parallel Computing', 'Grid Computing', 'Cloud Computing']
     },
     {
         title: 'Framework',
@@ -15,7 +15,7 @@ const data = [
     {
         title: 'DevOps',
         grid: 'devops',
-        skill: ['Azure', 'Git', 'Docker', 'Kubernetes', 'Jenkins', 'Github Actions', 'Nginx', 'Linux']
+        skill: ['Azure', 'AWS', 'Git', 'Docker', 'Kubernetes', 'Jenkins', 'Github Actions', 'Nginx', 'Linux']
     },
     {
         title: 'Programming Language',
