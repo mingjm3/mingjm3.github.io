@@ -1,9 +1,13 @@
 import React from 'react';
 import './Work.css';
+import ff from '../images/ff.jpg';
+import tw from '../images/tw.jpg';
+import tp from '../images/tp.jpg';
+import wch from '../images/wch.jpg';
 
 const data = [
   {
-    logo: "https://media.licdn.com/dms/image/C4E0BAQEv3EBIeJj4aQ/company-logo_200_200/0/1555082668721?e=1694649600&v=beta&t=Qe7TxAjP__aUipWBpRrpHrcCjKKY_E-T56DFnDMe-X8",
+    logo: ff,
     company: "FindingFive",
     position: "Software Engineer Intern",
     startDate: "May 2023",
@@ -13,7 +17,7 @@ const data = [
     url: "https://www.findingfive.com/"
   },
   {
-    logo: "https://media.licdn.com/dms/image/C4E0BAQE5QBG-mhja9g/company-logo_200_200/0/1625041348494?e=1694649600&v=beta&t=el4og5WmrWUqf5SmsGdALZL-ql9dcdjOjZSD7j1luP8",
+    logo: tw,
     company: "ThoughtWorks",
     position: "Software Engineer",
     startDate: "Nov 2021",
@@ -23,7 +27,7 @@ const data = [
     url: "https://www.thoughtworks.com/en-us"
   },
   {
-    logo: "https://media.licdn.com/dms/image/C4D0BAQFWMwEmsK0Aeg/company-logo_200_200/0/1519952553348?e=1694649600&v=beta&t=DrKjv5JEMrdNboWYHA3lPeuGePwdJWkjtomtPZWE2Wk",
+    logo: tp,
     company: "TP-Link",
     position: "Software Engineer Intern",
     startDate: "Aug 2021",
@@ -33,7 +37,7 @@ const data = [
     url: "https://www.tp-link.com/us/"
   },
   {
-    logo: "https://media.licdn.com/dms/image/C560BAQH784Gt17OeVg/company-logo_200_200/0/1643080249339?e=1694649600&v=beta&t=9HaJXaRp0h2tGMoQm0aqvKrHs-u0rLK26x2_ynzcfDs",
+    logo: wch,
     company: "West China Hospital",
     position: "Research Assistant in Ophthalmology Department",
     startDate: "Jun 2020",
